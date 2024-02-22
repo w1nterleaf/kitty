@@ -1,0 +1,462 @@
+@media(max-width:1440px){
+    .cat::before{
+        left: 43%;
+    }
+    .cat::after{
+        right: 47%;
+    }
+}
+@media(max-width:1399px){
+    .cat::before{
+        left: 43%;
+    }
+    .cat::after{
+        right: 46.5%;
+    }
+}
+@media(max-width:1299px){
+    .cat::before{
+        left: 42%;
+    }
+    .cat::after{
+        right: 46%;
+    }
+    .Btn{
+        right: 325.7%;
+    } 
+}
+@media(max-width:1199px){
+    .cat::before{
+        left: 41.5%;
+    }
+    .cat::after{
+        right: 45.8%;
+    }
+    .Btn{
+        right: 300.7%;
+    } 
+}
+@media(max-width:1024px){
+    .cat::before{
+        left: 40%;
+    }
+    .cat::after{
+        right: 45.5%;
+    }
+    .Btn{
+        right: 250.7%;
+    } 
+    .tongue::after{
+        top: 41.5%;
+        right: 51%;
+    }
+}
+@media(max-width:991px){
+    .cat::before{
+        left: 39.5%;
+    }
+    .cat::after{
+        right: 44.9%;
+    }
+    .tongue::after{
+        top: 41.5%;
+        right: 51%;
+    }
+}
+@media(max-width:930px){
+    .cat::before{
+        left: 39.5%;
+    }
+    .cat::after{
+        right: 44.5%;
+    }
+    .tongue::after{
+        top: 41.5%;
+        right: 51%;
+    }
+}
+@media(max-width:860px){
+    .cat::before{
+        left: 37.9%;
+    }
+    .cat::after{
+        right: 44%;
+    }
+    .tongue::after{
+        top: 41.5%;
+        right: 51.2%;
+    }
+}
+@media(max-width:800px){
+    .cat::before{
+        left: 37.4%;
+    }
+    .cat::after{
+        right: 44%;
+    }
+    .tongue::after{
+        top: 41.5%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 17.5px;
+        height: 15px;
+        border-radius: 50px;
+    }
+}
+@media(max-width:768px){
+    .cat::before{
+        width: 33px;
+        height: 30px;
+        left: 39%;
+    }
+    .cat::after{
+        width: 33px;
+        height: 30px;
+        right: 45%;
+    }
+    .tongue::after{
+        top: 41.5%;
+        right: 51.2%;
+    }
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        border-radius: 50px;
+    }
+    .kitty__img{
+        max-width: 500px;
+        max-height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:690px){
+    .cat::before{
+        width: 33px;
+        height: 30px;
+        left: 38%;
+    }
+    .cat::after{
+        width: 33px;
+        height: 30px;
+        right: 44%;
+    }
+    .cloud{
+        max-width: fit-content;
+        margin-right: -50px;
+    }
+    .cloud__img{
+        margin-right: -50px;
+    }
+    .container1{
+        max-width: 700px;
+    }
+    .tongue::after{
+        top: 41.5%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        border-radius: 50px;
+    }
+    .kitty__img{
+        max-width: 500px;
+        max-height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:610px){
+    .cat::before{
+        width: 33px;
+        height: 30px;
+        left: 36%;
+    }
+    .cat::after{
+        width: 33px;
+        height: 30px;
+        right: 43%;
+    }
+    .Btn{
+        right: 180%;
+    } 
+    .tongue::after{
+        top: 41.5%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        border-radius: 50px;
+    }
+    .kitty__img{
+        max-width: 500px;
+        max-height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        max-width: 610px;
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cat{
+        max-width: 610px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:595px){
+    .cat::before{
+        width: 33px;
+        height: 30px;
+        left: 36%;
+    }
+    .cat::after{
+        width: 33px;
+        height: 30px;
+        right: 43%;
+    }
+
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        top: 41.5%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        border-radius: 50px;
+    }
+    .container{
+        max-width: 500px;
+        width: 100%;
+    }
+    .kitty__img{
+        max-width: 500px;
+        max-height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        max-width: 595px;
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cat{
+        max-width: 595px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:500px){
+    .cat::before{
+        width: 28px;
+        height: 28px;
+        left: 36%;
+    }
+    .cat::after{
+        width: 28px;
+        height: 28px;
+        right: 43%;
+    }
+
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        top: 41.5%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        border-radius: 50px;
+    }
+    .container{
+        max-width: 500px;
+        width: 100%;
+    }
+    .kitty__img{
+        max-width: 450px;
+        max-height: 480px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        max-width: 470px;
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cat{
+        max-width: 470px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:430px){
+    .cat::before{
+        width: 28px;
+        height: 28px;
+        left: 35%;
+    }
+    .cat::after{
+        width: 28px;
+        height: 28px;
+        right: 43.5%;
+    }
+
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        top: 41.4%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 12px;
+        height: 13px;
+        border-radius: 50px;
+    }
+    .container{
+        max-width: 500px;
+        width: 100%;
+    }
+    .kitty__img{
+        max-width: 390px;
+        max-height: 480px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        max-width: 390px;
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cat{
+        max-width: 390px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:375px){
+    .cat::before{
+        width: 23px;
+        height: 23px;
+        left: 35%;
+    }
+    .cat::after{
+        width: 23px;
+        height: 23px;
+        right: 43.5%;
+    }
+
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        top: 41.4%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 10px;
+        height: 11px;
+        border-radius: 50px;
+    }
+    .container{
+        max-width: 500px;
+        width: 100%;
+    }
+    .kitty__img{
+        max-width: 335px;
+        max-height: 480px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        max-width: 335px;
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cat{
+        max-width: 335px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:320px){
+    .cat::before{
+        width: 23px;
+        height: 23px;
+        left: 34%;
+    }
+    .cat::after{
+        width: 23px;
+        height: 23px;
+        right: 42.5%;
+    }
+
+    .tongue::after{
+        width: 14px;
+        height: 15px;
+        top: 41.4%;
+        right: 51.4%;
+    }
+    .tongue::after{
+        width: 10px;
+        height: 11px;
+        border-radius: 50px;
+    }
+    .container{
+        max-width: 305px;
+        width: 100%;
+    }
+    .kitty__img{
+        max-width: 320px;
+        max-height: 480px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        max-width: 285px;
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cat{
+        max-width: 285px;
+        display: flex;
+        justify-content: center;
+    }
+    .cloud{
+        animation: slidein 4s infinite;
+        overflow: hidden;
+      }
+    @keyframes slidein {
+        0%{
+      
+          margin-left: 0%;
+          width: 100%;
+        }
+      
+        50%{
+          margin-left: 40%;
+          width: 90%;
+        }
+        100%{
+          margin-left: 0%;
+          width: 90%;
+        }
+      }
+}

@@ -1,0 +1,113 @@
+body{
+  background: rgb(198,140,156);
+
+  background: linear-gradient(0deg, rgba(198,140,156,1) 0%, rgba(212,67,128,1) 50%, rgba(5,7,112,1) 100%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    position: relative; 
+}
+.cat::before{
+    content: '';
+    position: absolute;
+    width: 43px;
+    height: 40px;
+    border-radius: 50px;
+    background: black;
+    left: 41.5%;
+    top: 32%;
+    animation: eye 2s ease-in-out infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: eye;
+}
+ .cat::after{
+    content: '';
+    position: absolute;
+    width: 43px;
+    height: 40px;
+    border-radius: 50px;
+    background: black;
+    right: 46.3%;
+    top: 32%;
+    animation: eye 2s ease-in-out infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: eye;
+}
+.cat::before{
+    left: 41.5%;
+}
+.cat::after{
+    right: 46.3%;
+}
+@keyframes eye{
+    90% {transform: none;}
+
+    95% {transform: scaleY(0.1);}
+
+}
+.kitty__img{
+    max-width: 600px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.tongue::after{
+    position: absolute;
+    content: '';
+    width: 19px;
+    height: 15px;
+    border-radius: 50px;
+    background: rgb(173, 94, 94);
+    top: 41.5%;
+    right: 50.8%;
+    animation: tongue 3s cubic-bezier(0, 1.91, 0.95, 0.44) infinite;
+    animation-name: tongue;
+}
+@keyframes tongue{
+    90% {transform: none;}
+
+    95% {transform: scaleY(0.1);}
+
+}
+.cloud__img{
+  width: 500px;
+  height: 280px;
+  margin-left: -150px;
+}
+.container1{
+  margin-bottom: -50px;
+  overflow: hidden;
+  width: 100%;
+}
+.cloud{
+  animation: slidein 9.5s infinite;
+  overflow: hidden;
+}
+
+
+@keyframes slidein {
+  0%{
+
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  50%{
+    margin-left: 80%;
+    width: 90%;
+  }
+  100%{
+    margin-left: 0%;
+    width: 90%;
+  }
+}
