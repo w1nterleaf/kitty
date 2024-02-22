@@ -1,7 +1,7 @@
 body{
   background: rgb(198,140,156);
 
-  background: linear-gradient(0deg, rgba(198,140,156,1) 0%, rgba(212,67,128,1) 50%, rgba(5,7,112,1) 100%);
+  background: linear-gradient(0deg, rgb(160, 140, 198) 100%, rgba(212,67,128,1) 50%, rgba(5,7,112,1) 0%);
 }
 .container{
     display: flex;
@@ -90,7 +90,7 @@ body{
   width: 100%;
 }
 .cloud{
-  animation: slidein 9.5s infinite;
+  animation: slidein 9s infinite;
   overflow: hidden;
 }
 
